@@ -1,0 +1,15 @@
+.project__icons {
+  position: absolute;
+  display: flex;
+  right: 0;
+  bottom: 0;
+  padding: 0 40px 0 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 400px) {
+  .project__icons {
+    padding: 0 20px 0 0;
+  }
+}

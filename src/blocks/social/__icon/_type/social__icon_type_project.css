@@ -1,0 +1,12 @@
+.social__icon_type_project {
+  width: 40px;
+  transition: all linear .1s;
+}
+.social__icon_type_project:hover {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 400px) {
+  .social__icon_type_project {
+    width: 30px;
+  }
+}

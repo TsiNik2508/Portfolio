@@ -1,0 +1,11 @@
+@import url(./__icon/social__icon.css);
+@import url(./__icon/_type/social__icon_type_footer.css);
+@import url(./__icon/_type/social__icon_type_profile.css);
+@import url(./__icon/_type/social__icon_type_project.css);
+@import url(./_type/social_type_profile.css);
+@import url(./_type/social_type_project.css);
+@import url(./_type/social_type_touch.css);
+
+.social {
+  margin: 3%;
+}

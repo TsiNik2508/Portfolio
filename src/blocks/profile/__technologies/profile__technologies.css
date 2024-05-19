@@ -1,0 +1,18 @@
+.profile__technologies {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+  .profile__technologies {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .profile__technologies {
+    font-size: 12px;
+  }
+}

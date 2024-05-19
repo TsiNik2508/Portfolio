@@ -1,0 +1,12 @@
+@keyframes percent40 {
+  from {
+    stroke-dashoffset: 628;
+  }
+  to {
+    stroke-dashoffset: 376.8;
+  }
+}
+
+.technology__progress_percent_40 {
+  animation: percent40 1s ease-in-out forwards paused; 
+}

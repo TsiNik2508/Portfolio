@@ -1,0 +1,7 @@
+.social__icon_type_footer {
+  width: 36px;
+  transition: all linear .1s;
+}
+.social__icon_type_footer:hover {
+  transform: scale(1.2);
+}

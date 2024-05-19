@@ -1,0 +1,10 @@
+@import url(./__description/project__description.css);
+@import url(./__image/project__image.css);
+@import url(./__title/project__title.css);
+@import url(./__figure/project__figure.css);
+@import url(./__icons/project__icons.css);
+
+.project {
+  width: 430px;
+  margin: 10px;
+}

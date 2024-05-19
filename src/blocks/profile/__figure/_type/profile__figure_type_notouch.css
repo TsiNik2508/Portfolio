@@ -1,0 +1,10 @@
+.profile__figure_type_notouch::before {
+  opacity: 0;
+  transform: translateX(350px);
+  transition: transform ease 0s;
+}
+.profile__figure_type_notouch:hover::before {
+  opacity: 1;
+  transform: translateX(0px);
+  transition: transform ease 0.2s;
+}

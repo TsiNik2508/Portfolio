@@ -1,0 +1,17 @@
+@import url(./__image/profile__image.css);
+@import url(./__main-title/profile__main-title.css);
+@import url(./__paragraph-title/profile__paragraph-title.css);
+@import url(./__text/profile__text.css);
+@import url(./__wrapper/profile__wrapper.css);
+@import url(./__figure/profile__figure.css);
+@import url(./__icons/profile__icons.css);
+@import url(./__technologies/profile__technologies.css);
+@import url(./__technology/profile__technology.css);
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  padding: 50px 0 0 ;
+}

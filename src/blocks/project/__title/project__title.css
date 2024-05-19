@@ -1,0 +1,20 @@
+.project__title {
+  font-family: 'Nautilus Pompilius';
+  text-align: center;
+  margin: 20px 0;
+  font-size: 28px;
+/*   color: rgb(0, 89, 255); */
+
+}
+
+@media screen and (max-width: 1280px) {
+  .project__title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .project__title {
+    margin: 10px 0;
+    font-size: 15px;
+  }
+}

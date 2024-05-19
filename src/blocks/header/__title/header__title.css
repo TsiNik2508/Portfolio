@@ -1,0 +1,54 @@
+@keyframes neon {
+  0% {
+    text-shadow: none;
+  }
+
+  20% {
+    text-shadow: 0 0 5px #539bca, 0 0 10px #539bca, 0 0 20px #539bca,
+    0 0 40px #539bca, 0 0 80px #539bca;
+  }
+  30% {
+    text-shadow: none;
+  }
+  80% {
+    text-shadow: 0 0 5px #539bca, 0 0 10px #539bca, 0 0 20px #539bca,
+    0 0 40px #539bca, 0 0 80px #539bca;
+  }
+  90% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 5px #539bca, 0 0 10px #539bca, 0 0 20px #539bca,
+    0 0 40px #539bca, 0 0 80px #539bca;
+  }
+}
+
+.header__title {
+  font-family: "Neon";
+  display: block;
+  font-weight: 900;
+  font-size: 60px;
+  margin: 35px 0;
+  text-align: center;
+  color: #539bca;
+    animation: neon 5s ease-in-out infinite alternate;  
+}
+
+@media screen and (max-width: 800px) {
+  .header__title {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 590px) {
+  .header__title {
+    font-size: 20px;
+    margin: 35px 0 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .header__title {
+    font-size: 15px;
+    margin: 20px 0 0;
+  }
+}

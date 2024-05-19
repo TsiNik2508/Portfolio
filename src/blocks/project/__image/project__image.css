@@ -1,0 +1,16 @@
+.project__image {
+  width: 100%;
+  object-fit: cover;
+  height: 300px;
+}
+
+@media screen and (max-width: 500px) {
+  .project__image {
+    height: 250px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .project__image {
+    height: 200px;
+  }
+}

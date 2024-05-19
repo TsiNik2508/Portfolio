@@ -1,0 +1,23 @@
+@import url(./__title/content__title.css);
+
+.content {
+  margin: 0 auto;
+  max-width: 1440px;
+}
+@media screen and (max-width: 1520px) {
+  .content {
+    margin: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .content {
+    margin: 0 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin: 0 20px;
+  }
+}

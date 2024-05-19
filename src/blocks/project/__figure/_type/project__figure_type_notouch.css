@@ -1,0 +1,21 @@
+.project__figure_type_notouch::before {
+  display: block;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "";
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  transform: translateY(120px);
+  transition: transform ease 0s;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  -webkit-clip-path: polygon(0 100%, 100% 0, 100% 100%);
+}
+
+.project__figure_type_notouch:hover::before {
+  opacity: 1;
+  transform: translateY(0px);
+  transition: transform ease 0.2s;
+}

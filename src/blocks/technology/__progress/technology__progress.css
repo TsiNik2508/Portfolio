@@ -1,0 +1,26 @@
+@import url(./_percent/technology__progress_percent_10.css);
+@import url(./_percent/technology__progress_percent_20.css);
+@import url(./_percent/technology__progress_percent_30.css);
+@import url(./_percent/technology__progress_percent_40.css);
+@import url(./_percent/technology__progress_percent_50.css);
+@import url(./_percent/technology__progress_percent_60.css);
+@import url(./_percent/technology__progress_percent_70.css);
+@import url(./_percent/technology__progress_percent_80.css);
+@import url(./_percent/technology__progress_percent_90.css);
+@import url(./_percent/technology__progress_percent_100.css);
+@import url(./_percent/technology__progress_percent_25.css);
+@import url(./_percent/technology__progress_percent_75.css);
+@import url(./_type/technology__progress_type_visible.css);
+
+
+.technology__progress {
+  fill: none;
+  stroke-width: 15px;
+  stroke: #539bca;
+  stroke-dasharray: 628;
+  stroke-dashoffset: 628;
+  stroke-linecap: round;
+  transform: rotate(-90deg);
+  transform-origin: 50% 50%;
+}
+

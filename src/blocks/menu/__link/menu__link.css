@@ -1,0 +1,26 @@
+.menu__link {
+  font-size: 25px;
+  text-decoration: none;
+  color: inherit;
+  margin-right: 20px;
+  transition: all linear 0.1s;
+  font-family: "Neon";
+  color: #539bca;
+  font-weight: 700;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+
+.menu__link:hover {
+  transform: scale(1.02);
+  text-shadow:0 0 4px white, 0 0 25px #539bca ,0 0 30px #539bca;
+}
+
+@media screen and (max-width: 590px) {
+  .menu__link {
+    font-size: 12px;
+    margin-right: 10px;
+  }
+}

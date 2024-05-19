@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="портфолио Цилосани Никиты Андреевича" />
+  <meta name="keywords" content="html, css, javascript" />
+  <meta name="author" content="Цилосани Никита" />
+  <link rel="shortcut icon" href="./images/icon.png" type="image/png" />
+  <title>Портфолио</title>
+</head>
+
+<body class="page">
+  <header class="header">
+    <h1 class="header__title">
+      Цилосани&nbsp;Никита&nbsp;Андреевич
+    </h1>
+    <nav class="menu">
+      <template id="menu-link">
+        <a href="" class="menu__link"></a>
+      </template>
+    </nav>
+  </header>
+  <main class="content">
+    <section class="profile">
+      <figure class="profile__figure">
+        <img src="./images/Me.jpg" alt="Фотография Никиты" class="profile__image" />
+        <figcaption>
+          <ul class="profile__icons"></ul>
+        </figcaption>
+      </figure>
+      <div class="profile__wrapper">
+        <h2 class="profile__main-title project-section__title  " id="profile">
+          О себе
+        </h2>
+        <p class="profile__text">
+          Привет, я Никита, и мне очень сложно писать о себе. Возможно, поэтому я занимаюсь не пиаром или смм, а
+          написанием кода! :D Свой путь в айти я начал с Level-дизайна и 3D- Моделирования, но я решил прийти в
+          веб-разработку. 
+        </p>
+        <p class="profile__text">
+          Я начинающий фронтенд-разработчик с большими амбициями! Окончил обучение в Яндекс.Практикуме и стараюсь
+          участвовать в дополнительных ивентах. Практически, каждый день решаю задачки на CodeWars, принимаю участие в
+          книжных клубах, а также разрабатываю пет-проекты. 
+        </p>
+        <p class="profile__text">Я дисциплинированный и готов покорять новые высоты. Во время обучения мне часто не
+          хватало учебных материалов, поэтому приходилось самостоятельно искать и осваивать дополнительную информацию, а
+          затем применять её на практике. Старался делать все максимально качественно. Бывало, что писал код по 10 часов
+          в день. Очень хочу найти интересные проекты, команду единомлышеников, с которыми мы добьёмся невообразимых
+          высот!</p>
+      </div>
+    </section>
+    <section class="technologies">
+      <h2 class="technologies__title project-section__title" id="technologies">
+        Технологии
+      </h2>
+      <div class="technologies__container">
+        <template id="technology">
+          <div class="technology">
+            <h3 class="technology__title"></h3>
+            <svg class="technology__progress-bar">
+              <circle class="technology__bg" cx="110" cy="110" r="100"></circle>
+              <circle class="technology__progress" cx="110" cy="110" r="100"></circle>
+            </svg>
+          </div>
+        </template>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <ul class="footer__contacts">
+        <h3 class="footer__title">Contacts</h3>
+        <li class="footer__contact">
+          <a href="tel:+79919191817" class="footer__link">+7 (991) 919 18 17</a>
+        </li>
+        <li class="footer__contact">
+          <a href="mailto:nikitaandr2508@gmail.com" class="footer__link">nikitaandr2508@gmail.com</a>
+        </li>
+      </ul>
+      <div class="footer__container">
+        <h3 class="footer__title">Social networks</h3>
+        <ul class="footer__social-networks"></ul>
+      </div>
+      <p class="footer__copyright">&copy;2024. Цилосани Никита</p>
+    </div>
+  </footer>
+  <template id="project">
+    <li class="project">
+      <figure class="project__figure">
+        <a class="project__link"><img alt="" class="project__image" /></a>
+        <figcaption>
+          <ul class="project__icons"></ul>
+        </figcaption>
+      </figure>
+      <h3 class="project__title"></h3>
+      <p class="project__description"></p>
+    </li>
+  </template>
+  <template id="project-section">
+    <section class="project-section">
+      <h2 class="project-section__title"></h2>
+      <p class="project-section__subtitle"></p>
+      <ul class="project-section__container"></ul>
+    </section>
+  </template>
+  <template id="profile-icon">
+    <li class="social social_type_profile">
+      <a href="">
+        <img alt="" class="social__icon social__icon_type_profile" />
+      </a>
+    </li>
+  </template>
+  <template id="footer-icon">
+    <li class="social">
+      <a href="">
+        <img alt="" class="social__icon social__icon_type_footer" />
+      </a>
+    </li>
+  </template>
+  <template id="project-icon">
+    <li class="social social_type_project">
+      <a href="">
+        <img alt="" class="social__icon social__icon_type_project" />
+      </a>
+    </li>
+  </template>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.profile__main-title {
+  font-family: "Neon";
+  color: #539bca;
+  text-shadow:0 0 4px white, 0 0 25px #539bca,0 0 30px #539bca,0 0 35px #539bca, 0 0 40px #539bca;
+  margin: 0 0 20px;
+  font-weight: 600;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 1280px) {
+  .profile__main-title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1018px) {
+  .profile__main-title {
+    margin: 25px 0 20px;
+    font-size: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .profile__main-title {
+    font-size: 20px;
+  }
+}

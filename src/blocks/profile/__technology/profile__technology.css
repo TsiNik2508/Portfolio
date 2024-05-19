@@ -1,0 +1,10 @@
+.profile__technology {
+  padding: 0 0 0 30px;
+  background: url(../../../images/check.svg) no-repeat 0/20px;
+}
+
+@media screen and (max-width: 590px) {
+  .profile__technology {
+    background: url(../../../images/check.svg) no-repeat 0/15px;
+  }
+}

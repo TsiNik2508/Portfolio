@@ -1,0 +1,29 @@
+.social_type_project {
+  padding: 10px 5px;
+}
+
+.social_type_project {
+  transform: translateY(70px);
+  opacity: 0;
+  padding: 10px 5px;
+}
+.social_type_project:nth-child(1) {
+  transition: transform ease 0s;
+}
+
+.social_type_project:nth-child(2) {
+  transition: transform ease 0s;
+}
+
+.project__figure:hover .social_type_project {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.project__figure:hover .social_type_project:nth-child(1) {
+  transition: transform ease 0.2s 0.1s;
+}
+
+.project__figure:hover .social_type_project:nth-child(2) {
+  transition: transform ease 0.2s 0s;
+}

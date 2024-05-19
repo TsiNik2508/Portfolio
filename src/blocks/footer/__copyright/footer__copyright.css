@@ -1,0 +1,9 @@
+.footer__copyright {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 478px) {
+  .footer__copyright {
+    align-self: center;
+  }
+}
