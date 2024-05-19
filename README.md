@@ -1,6 +1,6 @@
 ### Русский
 
-# Мое портфолио
+# [Мое портфолио](https://tsinik2508.github.io/Portfolio/)
 
 Данный проект представляет собой веб-портфолио, созданное для демонстрации моих навыков и проектов.
 
@@ -34,7 +34,7 @@
 
 ### English
 
-# My Portfolio
+# [My Portfolio](https://tsinik2508.github.io/Portfolio/)
 
 This project is a web portfolio created to showcase my skills and projects.
 
