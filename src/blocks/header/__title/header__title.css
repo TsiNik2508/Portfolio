@@ -31,7 +31,6 @@
   margin: 35px 0;
   text-align: center;
   color: #539bca;
-    animation: neon 5s ease-in-out infinite alternate;  
 }
 
 @media screen and (max-width: 800px) {

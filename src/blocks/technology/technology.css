@@ -9,3 +9,10 @@
     height: 220px;
     margin: 30px;
   }
+
+  @media (max-width: 599px) {
+    .technology 
+  {
+    margin: 15px;
+  }
+  }

@@ -211,10 +211,6 @@ export const technologies = [
     percent: "100",
   },
   {
-    name: "JS",
-    percent: "100",
-  },
-  {
     name: "TS",
     percent: "100",
   },
@@ -240,14 +236,6 @@ export const technologies = [
   },
   {
     name: "Webpack",
-    percent: "100",
-  },
-  {
-    name: "HTML",
-    percent: "100",
-  },
-  {
-    name: "CSS",
     percent: "100",
   },
   {
