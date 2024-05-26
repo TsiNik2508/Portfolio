@@ -15,6 +15,7 @@ import studyImage from "../images/how-to-study.png";
 import procrastinateImage from "../images/procrastinate.png";
 import Schistogo from "../images/Schistogo.png";
 import certificate from "../certificate/certificate.pdf";
+import palcImage from "../images/Palc.png"
 
 export const socialIcons = {
   vk: vkIcon,
@@ -31,6 +32,20 @@ export const projects = [
     subtitle: "Мои самые крупные проекты на данный момент.",
     id: "main",
     exampls: [
+      {
+        title: 'Проект "Palc" frontend (в разработке)',
+        subtitle:
+          "Пет проект, для музыкальной группы. Написан на React. Включает в себя несколько страниц с информацией о творчестве группы, турах, мерче и галерее.",
+        link: "https://tsinik2508.github.io/Palc",
+        image: palcImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/TsiNik2508/Palc",
+            icon: socialIcons.github,
+          },
+        ],
+      },
       {
         title: 'Проект "Movies Explorer"',
         subtitle:
