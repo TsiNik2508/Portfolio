@@ -15,7 +15,8 @@ import studyImage from "../images/how-to-study.png";
 import procrastinateImage from "../images/procrastinate.png";
 import Schistogo from "../images/Schistogo.png";
 import certificate from "../certificate/certificate.pdf";
-import palcImage from "../images/Palc.png"
+import palcImage from "../images/Palc.png";
+import todoImage from "../images/todo-react.png"
 
 export const socialIcons = {
   vk: vkIcon,
@@ -156,6 +157,21 @@ export const projects = [
     subtitle: "Маленькие проекты, для практики.",
     id: "small",
     exampls: [
+      {
+        title: 'Проект "ToDo"',
+        subtitle:
+          "Это простое приложение для управления списком задач, разработанное с использованием TypeScript, React и React Hooks.",
+        link: "https://tsinik2508.github.io/todo-app/",
+        image: todoImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/TsiNik2508/todo-app",
+            icon: socialIcons.github,
+          },
+        ],
+      },
+      
       {
         title: 'Проект "Идеи для прокрастинации"',
         subtitle:
