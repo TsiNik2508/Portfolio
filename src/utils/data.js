@@ -17,6 +17,7 @@ import Schistogo from "../images/Schistogo.png";
 import certificate from "../certificate/certificate.pdf";
 import palcImage from "../images/Palc.png";
 import todoImage from "../images/todo-react.png"
+import testImage from "../images/test.png"
 
 export const socialIcons = {
   vk: vkIcon,
@@ -171,7 +172,6 @@ export const projects = [
           },
         ],
       },
-      
       {
         title: 'Проект "Идеи для прокрастинации"',
         subtitle:
@@ -195,6 +195,20 @@ export const projects = [
           {
             name: "code",
             link: "https://github.com/TsiNik2508/s-chistogo-lista",
+            icon: socialIcons.github,
+          },
+        ],
+      },
+      {
+        title: 'Проект "Test"',
+        subtitle:
+          "это веб-приложение для проведения промежуточных аттестаций учащихся в формате теста. Приложение реализовано на React с использованием TypeScript.",
+        link: "https://tsinik2508.github.io/test-app/test",
+        image: testImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/TsiNik2508/test-app",
             icon: socialIcons.github,
           },
         ],
